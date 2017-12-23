@@ -94,11 +94,11 @@ class WP_Webhooks {
 					<table>
 						<tbody>
 							<tr>
-								<td><label style="font-weight: bold" for="newhook" id="action_or_filter">Action:</label></td>
+								<td><label for="newhook" id="action_or_filter">Action:</label></td>
 								<td><select name="newhook" id="newhook"><option value="comment_post">comment_post</option><option value="publish_page">publish_page</option><option value="publish_post">publish_post</option></select></td>
 							</tr>
 							<tr>
-								<td style="vertical-align: top"><label style="font-weight: bold" for="newfields">Fields: </label><br><small>Ctrl-click on Windows or Command-click on Mac to select multiple. The <code>hook</code> field with the relevant hook name is always sent.</small><br>
+								<td style="vertical-align: top"><label for="newfields">Fields: </label><br><small>Ctrl-click on Windows or Command-click on Mac to select multiple. The <code>hook</code> field with the relevant hook name is always sent.</small><br>
 								</td>
 								<td>
 									<select style="vertical-align: top" name="newfields" id="newfields" multiple="multiple" size="8">
@@ -107,7 +107,7 @@ class WP_Webhooks {
 								</td>
 							</tr>
 							<tr>
-								<td><label style="font-weight: bold" for="newurl">URL: </label></td><td><input name="newurl" id="newurl" size="40" value="http://"></td>
+								<td><label for="newurl">URL: </label></td><td><input name="newurl" id="newurl" size="40" value="http://"></td>
 							</tr>
 						</tbody>
 					</table>

@@ -1,3 +1,7 @@
 #hookpress-webhook {
     display: none;
 }
+
+#webhooks-contetn-with-css table label {
+    font-weight: bold;
+}
